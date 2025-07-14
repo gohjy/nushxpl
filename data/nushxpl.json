@@ -1,0 +1,22 @@
+{
+    "about": {
+        "frame": "./about-nushxpl/",
+        "title": "About nushXPL"
+    },
+    "error-badurl": {
+        "frame": "./about-nushxpl/error-badurl.html",
+        "title": "Error: Bad URL!"
+    },
+    "error-notfound": {
+        "frame": "./about-nushxpl/error-notfound.html",
+        "title": "Error: Not Found!"
+    },
+    "error-baddata": {
+        "frame": "./about-nushxpl/error-baddata.html",
+        "title": "Error: Bad Data!"
+    },
+    "error": {
+        "frame": "./about-nushxpl/error-other.html",
+        "title": "Error"
+    }
+}

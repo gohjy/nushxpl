@@ -2,5 +2,13 @@
     "math-gt5": {
         "frame": "./m25102-pages/math-gt5.html",
         "title": "Math GT 5: 27 Aug 2025"
+    },
+    "phys-test2": {
+        "frame": "./m25102-pages/phys-test-2.html",
+        "title": "Physics Test 2: 28 Aug 2025"
+    },
+    "chem-test2": {
+        "frame": "./m25102-pages/chem-test-2.html",
+        "title": "Physics Test 2: 22 Aug 2025"
     }
 }

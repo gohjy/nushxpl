@@ -1,4 +1,8 @@
 {
+    "~": {
+        "frame": "./m25102-pages/index.html",
+        "title": "M25102 Pages"
+    },
     "math-gt5": {
         "frame": "./m25102-pages/math-gt5.html",
         "title": "Math GT 5: 27 Aug 2025"

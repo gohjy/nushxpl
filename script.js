@@ -7,7 +7,7 @@ function notOk(e) {
 async function main({$hash=undefined}={$hash:undefined}) {
     document.body.innerHTML = "";
 
-    const hash = ($hash ?? location.hash).toLowerCase().match(/^\#?\/([a-z0-9\-]+)\/([a-z0-9\-]+)$/);
+    const hash = ($hash ?? location.hash).toLowerCase().match(/^\#?\/([a-z0-9\-]+)\/(([a-z0-9\-]+)|\~)$/);
     const lib = hash?.[1];
     const path = hash?.[2];
 
@@ -75,7 +75,7 @@ async function main({$hash=undefined}={$hash:undefined}) {
     document.title = thisData.title ?? thisData.frame;
 }
 
-window.addEventListener("hashchange", async() => {
+window.addEventListener("hashchange", async () => {
     try {
         await main();
     } catch {

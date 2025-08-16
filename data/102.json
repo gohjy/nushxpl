@@ -14,5 +14,9 @@
     "chem-test2": {
         "frame": "./m25102-pages/chem-test-2.html",
         "title": "Chem Test 2: 22 Aug 2025"
+    },
+    "bio-quiz2": {
+        "frame": "./m25102-pages/bio-quiz-2.html",
+        "title": "Bio Quiz 2: 20 Aug 2025"
     }
 }
